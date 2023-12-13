@@ -7,7 +7,7 @@ public class StartBtn : MonoBehaviour
 {
         public void LoadIntro()
         {
-        FadeManager.Instance.FadeAndLoadScene("IntroScene");
+        FadeManager.Instance.FadeAndLoadScene("Select");
         }
     }
 
