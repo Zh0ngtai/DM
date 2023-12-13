@@ -15,7 +15,6 @@ public class IntroScene : MonoBehaviour
         {
             // 아무 키나 입력을 받으면 GameScene 씬으로 전환
             if (Input.anyKeyDown)
-                if (Input.anyKeyDown)
                 {
                     SceneManager.LoadScene("MainScene");
                 }
